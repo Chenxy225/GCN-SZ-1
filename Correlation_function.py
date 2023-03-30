@@ -65,7 +65,7 @@ def BrainGraphBuild2(fbm_path, gmm_path, fmri_feature_path, smri_feature_path, s
     Description: build "AAL: FBM-GMM & sMRI + fMRI" brain graph
     
     Param fbm_path : str, the storage address of the connection matrix file (fMRI), the address should end with "//"
-    aram gmm_path : str, the storage address of the connection matrix file (sMRI), the address should end with "//"
+    Param gmm_path : str, the storage address of the connection matrix file (sMRI), the address should end with "//"
     Param fmri_feature_path: str, the storage address of fMRI node features (ALFF、ReHo、fDC) .csv file
     Param smri_feature_path：str, the storage address of sMRI node features (GMV、WMV、sDC) .csv file
     Param sparsity : keep the top percent sparsity edges of the network
